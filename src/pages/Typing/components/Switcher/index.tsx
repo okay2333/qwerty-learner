@@ -1,6 +1,7 @@
 import { TypingContext, TypingStateActionType } from '../../store'
 import AnalysisButton from '../AnalysisButton'
 import ErrorBookButton from '../ErrorBookButton'
+import FeaturesButton from '../FeaturesButton'
 import HandPositionIllustration from '../HandPositionIllustration'
 import LoopWordSwitcher from '../LoopWordSwitcher'
 import Setting from '../Setting'
@@ -93,6 +94,9 @@ export default function Switcher() {
       </Tooltip>
       <Tooltip content="设置">
         <Setting />
+      </Tooltip>
+      <Tooltip content="features">
+        <FeaturesButton />
       </Tooltip>
     </div>
   )
